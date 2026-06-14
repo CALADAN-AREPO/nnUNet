@@ -91,7 +91,7 @@ intel_macos = [
 ]
 
 [tool.setuptools.packages.find]
-include = ["nnunetv2*"]
+include = ["nnunetv2*", "daoct*"]
 
 [build-system]
 requires = ["setuptools>=67.8.0"]
